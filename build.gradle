@@ -1,0 +1,10 @@
+allprojects {
+  repositories {
+    jcenter()
+    google()
+  }
+}
+
+buildscript {
+  apply from: file('gradle/dependencies.gradle')
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!-- Application Themes -->
+  <style name="Theme.Ticker" parent="Theme.AppCompat.NoActionBar">
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+
+    <item name="colorControlNormal">@color/light_grey</item>
+    <item name="colorControlActivated">@color/colorAccent</item>
+    <item name="colorControlHighlight">@color/dark_white</item>
+
+    <item name="android:colorBackground">@android:color/white</item>
+    <item name="android:textColorPrimary">@color/dark_grey</item>
+    <item name="android:textColorHint">@color/light_grey</item>
+    <item name="android:textColorLink">@color/light_blue</item>
+
+    <item name="android:windowBackground">@color/dark_white</item>
+  </style>
+
+  <!-- Container Themes -->
+  <style name="Theme.Ticker.Layout">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+
+    <item name="android:fitsSystemWindows">true</item>
+  </style>
+
+  <style name="Theme.Ticker.Layout.Horizontal" parent="Theme.Ticker.Layout">
+    <item name="android:gravity">center_horizontal</item>
+    <item name="android:orientation">horizontal</item>
+  </style>
+
+  <style name="Theme.Ticker.Layout.Vertical" parent="Theme.Ticker.Layout">
+    <item name="android:gravity">center_vertical</item>
+    <item name="android:orientation">vertical</item>
+  </style>
+
+  <style name="Theme.Ticker.Layout.Vertical.Margin" parent="Theme.Ticker.Layout.Vertical">
+    <item name="android:layout_marginTop">@dimen/default_margin</item>
+  </style>
+
+  <style name="Theme.Ticker.Layout.Vertical.Padding" parent="Theme.Ticker.Layout.Vertical">
+    <item name="android:padding">@dimen/default_padding</item>
+  </style>
+</resources>
